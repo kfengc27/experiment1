@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import { Carousel } from 'antd';
 import './App.css';
+import { Slide } from '@mui/material';
+const contentStyle = {
+  height: '160px',
+  color: '#fff',
+  lineHeight: '160px',
+  textAlign: 'center',
+  background: '#364d79',
+};
 
 function App() {
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <body>
+        <image></image>
+          {/* <h2>HTRANSLATION BY PROFESSIONAL NAATI CERTIFICATE TRANSLATORS</h2>
+          <p>FAST, RELIABLE AND CONFENTIAL PROFESSIONAL NAATI TRANSLATION SERVICE for all 96+ languages from only 59.99 AUD.</p>
+        <br></br>
+        <h3>RANSLATION FOR ALL TYPES OF DOCUMENTS BY NAATI CERTIFICATED TRANSLATORS</h3> */}
+      </body>
     </div>
   );
 }
